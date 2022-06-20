@@ -5,7 +5,7 @@
                 <form [formGroup]="form" autocomplete="off">
                     <div class="col">
                         <div class="row m-2">
-                            <mat-form-field class="example-full-width" appearance="outline">
+                            <mat-form-field class="example-full-width" appearance="fill">
                                 <mat-label>Email</mat-label>
                                 <input type="text" matInput formControlName="email" [errorStateMatcher]="matcher" name="name" id="name">
                                 <mat-error *ngIf="email.hasError('required')">
@@ -25,7 +25,7 @@
 
                         <div class="row">
                             <div class="col-6 float-left">
-                                <a routerLink="/forgot_password">Forgot password?</a>
+                                <a routerLink="/forgot_password">Login with Azure AD</a>
                             </div>
                             <div class="col-6 ">
                                 <div class="float-right">

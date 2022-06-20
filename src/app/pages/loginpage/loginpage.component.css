@@ -1,0 +1,40 @@
+.class1 {
+    /*background-image: url(../../../assets/img/central_admin.gif);*/
+    background-color: hotpink;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login {
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+mat-form-field.mat-form-field {
+    background-color: #ffffff;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+}
+
+mat-card {
+    background-color: #ffffff;
+    color: black;
+    width: 440px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.label {
+    justify-content: center;
+    justify-items: center;
+    color: red;
+}
