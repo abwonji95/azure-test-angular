@@ -6,8 +6,8 @@ import { MsalGuard } from '@azure/msal-angular';
 import { ProfileComponent } from './pages/profile/profile.component';
 
 const routes: Routes = [
-  {path:'loginpage',component:LoginpageComponent},
-  {path:'homepage',component:HomepageComponent},
+  {path:'loginpage',component:LoginpageComponent,canActivate: [MsalGuard]},
+  {path:'homepage',component:HomepageComponent,canActivate: [MsalGuard]},
   { path: '', redirectTo: 'homepage', pathMatch: 'full' },
   {
     path: 'profile',component: ProfileComponent,canActivate: [MsalGuard]},

@@ -1,8 +1,4 @@
 import { BrowserModule } from '@angular/platform-browser';
-
-
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { LoginpageComponent } from './pages/loginpage/loginpage.component';

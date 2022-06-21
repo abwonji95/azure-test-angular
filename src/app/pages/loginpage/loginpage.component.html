@@ -25,11 +25,11 @@
 
                         <div class="row">
                             <div class="col-6 float-left">
-                                <a routerLink="/forgot_password">Login with Azure AD</a>
+                                <a (click)="login()">Login with Azure AD</a>
                             </div>
                             <div class="col-6 ">
                                 <div class="float-right">
-                                    <button mat-raised-button (click)="loginUser()" color="primary">Login</button>
+                                    <button mat-raised-button color="primary">Login</button>
                                 </div>
                             </div>
                         </div>
