@@ -1,10 +1,12 @@
 <mat-toolbar>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <div class="col float-left">
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
-    <span>My App</span>
-    <span class="example-spacer"></span>
-    <div class="float-right">
+        <span>My App</span>
+        <span class="example-spacer"></span>
+    </div>
+    <div class="col float-right">
         <button mat-raised-button (click)="logout()" class="btn btn-success">Logout</button>
     </div>
 
