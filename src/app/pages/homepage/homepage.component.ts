@@ -12,6 +12,11 @@ import { filter } from 'rxjs/operators';
 export class HomepageComponent implements OnInit {
 
 
+
+
+
+
+  
   loginDisplay = false;
 
   constructor(private authService: MsalService, private msalBroadcastService: MsalBroadcastService) { }

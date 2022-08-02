@@ -8,6 +8,8 @@
 
 # Node
 /node_modules
+/node_modules_r
+/node_modules_w
 npm-debug.log
 yarn-error.log
 

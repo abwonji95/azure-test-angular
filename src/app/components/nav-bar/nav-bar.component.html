@@ -1,12 +1,13 @@
 <mat-toolbar>
-    <div class="col float-left">
+    <div class="col-11 float-left">
         <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
-        <span>My App</span>
+        <span>{{title}}</span>
         <span class="example-spacer"></span>
     </div>
-    <div class="col float-right">
+    <div class="col-1 ">
+        <a routerLink="profile" class="btn btn-primary me-2">Profile</a>
         <button mat-raised-button (click)="logout()" class="btn btn-success">Logout</button>
     </div>
 

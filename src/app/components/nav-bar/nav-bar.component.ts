@@ -8,6 +8,7 @@ import { AuthenticationResult, InteractionStatus, InteractionType, PopupRequest,
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
+  title="Azure Test Angular"
 
   constructor(
     @Inject(MSAL_GUARD_CONFIG) private msalGuardConfig: MsalGuardConfiguration,

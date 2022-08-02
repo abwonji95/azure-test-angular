@@ -16,7 +16,7 @@ const routes: Routes = [
     path: 'code',component: HomepageComponent
   },
   {
-    path: '',component: HomepageComponent
+    path: '',component: LoginpageComponent
   },
   {
     // Needed for Error routing
